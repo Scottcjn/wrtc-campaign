@@ -1,0 +1,17 @@
+[Unit]
+Description=wRTC campaign autoposter (Playwright request)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/scott
+EnvironmentFile=/home/scott/wrtc-campaign/.env
+ExecStart=/usr/bin/node /home/scott/wrtc-campaign/run.mjs --daemon --hours 8 --live
+Restart=on-failure
+RestartSec=30
+StandardOutput=append:/tmp/wrtc_campaign.log
+StandardError=append:/tmp/wrtc_campaign.log
+
+[Install]
+WantedBy=default.target
+

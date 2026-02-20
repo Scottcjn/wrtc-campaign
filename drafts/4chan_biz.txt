@@ -1,0 +1,8 @@
+wRTC (Wrapped RTC) live on Solana.
+
+Mint: 12TAdKXxcGf6oCv4rqDz2NkgxjyHq6HQKoxKZYGf5i4X
+Swap: https://raydium.io/swap/?inputMint=sol&outputMint=12TAdKXxcGf6oCv4rqDz2NkgxjyHq6HQKoxKZYGf5i4X
+Bridge: https://bottube.ai/bridge
+Info: https://rustchain.org/wrtc/
+
+RustChain = Proof-of-Antiquity chain: vintage hardware earns higher rewards.

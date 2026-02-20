@@ -1,0 +1,10 @@
+[Unit]
+Description=Run wRTC campaign autoposter nightly
+
+[Timer]
+OnCalendar=*-*-* 02:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
